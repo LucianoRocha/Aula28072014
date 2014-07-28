@@ -82,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6597D391986D2A800AB912A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6B19BED1986C665006161CC /* LTRMasterViewController.h */,
+				C6B19BEE1986C665006161CC /* LTRMasterViewController.m */,
+				C6B19BF01986C665006161CC /* LTRDetailViewController.h */,
+				C6B19BF11986C665006161CC /* LTRDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C6597D3A1986D33600AB912A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6B19BEA1986C665006161CC /* Main.storyboard */,
+				C6B19BF31986C665006161CC /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C6B19BCC1986C665006161CC = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +137,8 @@
 			children = (
 				C6B19BE71986C665006161CC /* LTRAppDelegate.h */,
 				C6B19BE81986C665006161CC /* LTRAppDelegate.m */,
-				C6B19BEA1986C665006161CC /* Main.storyboard */,
-				C6B19BED1986C665006161CC /* LTRMasterViewController.h */,
-				C6B19BEE1986C665006161CC /* LTRMasterViewController.m */,
-				C6B19BF01986C665006161CC /* LTRDetailViewController.h */,
-				C6B19BF11986C665006161CC /* LTRDetailViewController.m */,
-				C6B19BF31986C665006161CC /* Images.xcassets */,
+				C6597D3A1986D33600AB912A /* Resources */,
+				C6597D391986D2A800AB912A /* ViewControllers */,
 				C6B19BDF1986C665006161CC /* Supporting Files */,
 			);
 			path = Aula28072014_ControllingSource;
@@ -463,6 +479,7 @@
 				C6B19C0C1986C665006161CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6B19C0D1986C665006161CC /* Build configuration list for PBXNativeTarget "Aula28072014_ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				C6B19C0F1986C665006161CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
