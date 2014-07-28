@@ -10,4 +10,6 @@
 
 @interface LTRMasterViewController : UITableViewController
 
+//nova configuraçáo
+
 @end
